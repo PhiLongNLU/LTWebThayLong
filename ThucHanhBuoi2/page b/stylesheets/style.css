@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol,ul{
+    padding-left: 0;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.light_gray_bg{
+    background-color: lightgray;
+}
+
+.logo{
+    width: 10rem;
+    object-fit: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pix_button{
+    padding: 8px 13px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn_normal{
+    color: white;
+}
+
+.bold_text{
+    font-weight: bold;
+}
+
+.orange_bg{
+    border: #F77825;
+    background-color: #F77825;
+}
+
+#section_text_2{
+    padding: 20px 0;
+}
+
+.bold_text{
+    color: #7D7A78;
+}
+
+.icon-items{
+    padding: 0 5px;
+}
+
+.bg-white{
+    background-color: white;
+}
+.carousel-caption{
+    text-align: left;
+    left: 1rem;
+    bottom: -2rem;
+}
+
+.big_padding{
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+.box-sizing{
+    width: 200px;
+    height: 370px;
+    box-sizing: border-box;
+    margin: 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.img_gym_st > .logo_style{
+    border-radius: 100px;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.padding_bottom_60{
+    padding-bottom: 60px;
+}
+
+.flat_pricing{
+    border: solid 3px #656262;
+    background-color: white;
+    padding: 20px 20px;
+    margin: 30px 0;
+}
+
+.one-thirds.column{
+    margin : 20px;
+}
+
+.flat_pricing_list{
+    list-style: none;
+}
+
+.blue_bg{
+    background-color: #2ABFE8;
+    border: solid 3px #2ABFE8;
+}
+
+.big_title{
+    font-size: 2rem;
+}
+
+.blue_text{
+    color: #2ABFE8;
+}
+
+.orange-text{
+    color: #f77825;
+}
+
+.dark_bg{
+    background-color: #191919;
+}
+
+.white-text{
+    color: white;
+}
+
+.segment{
+    display: block;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+
+}
+
+.underline{
+    border-bottom: solid 3px #2ABFE8 ;
+}
+.subtext_style{
+    margin: auto;
+    width: 35%;
+}
+
+.padding-bottom-40{
+    padding-bottom: 40px;
+}
+
+input, button{
+    width: 30%;
+    height: 40px;
+}
+.black-bg{
+    background-color: #151515;
+}
+
+.bottom-icons{
+    list-style: none;
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    top: 180px;
+}
