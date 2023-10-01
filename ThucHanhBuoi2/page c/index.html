@@ -3,47 +3,74 @@
 <head>
     <meta charset="utf-8">
     <title></title>
+<!--font-awesome-->
+    <script src="https://kit.fontawesome.com/86a0622b84.js" crossorigin="anonymous"></script>
+<!--/font-awesome-->
+<!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!--/bootstrap-->
     <link href="stylesheets/font-awesome.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<!--css-->
+    <link rel="stylesheet" href="stylesheets/style.css">
+<!--/css-->
 
 </head>
 <body>
 
 <div id="page" class="page">
-<div class="pixfort_normal_1" id="section_header_2_dark">
-        <div class=" header_nav_1 dark pix_builder_bg">
+
+    <div class="pixfort_normal_1" id="section_header_2_dark">
+        <div class="header_nav_1">
             <div class="container">
-                <div class="sixteen columns firas2">
-                    <nav role="navigation" class="navbar navbar-white navbar-embossed navbar-lg pix_nav_1">
+                <div class="nav-bar">
+                    <nav role="navigation" class="flex-container navbar navbar-expand-lg pix_nav_1">
+                        <img src="images/main/logo-dark.png" class="pix_nav_logo" alt="">
+
                         <div class="containerss">
-                            <div class="navbar-header">
-                                <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle pix_text" type="button">
-                                    <span class="sr-only ">Toggle navigation</span>
-                                </button>
-                                <img src="images/main/logo-dark.png" class="pix_nav_logo" alt="">                
-                            </div>
-                            <div id="navbar-collapse-02" class="collapse navbar-collapse">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="active propClone"><a href="#">Home</a></li>
-                                    <li class="propClone"><a href="#">Work</a></li>
-                                    <li class="propClone"><a href="#">Blog</a></li>
-                                    <li class="propClone"><span class="text_span editContent">(+103) 55-323-34</span></li>
-                                    <li class="propClone icon-item"><a class="pi pixicon-facebook2" href="#fakelink"></a></li>
-                                    <li class="propClone icon-item"><a class="pi pixicon-twitter2" href="#fakelink"></a></li>
-                                    <li class="propClone icon-item"><a class="pi pixicon-instagram" href="#fakelink"></a></li>
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                                    <li class="nav-item">
+                                        <a class="nav-link white-text" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link white-text" href="#">Work</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link white-text" href="#">Block</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link white-text" aria-current="page" href="#"><i class="fa-brands fa-facebook fa-sm"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link white-text" href="#"><i class="fa-brands fa-twitter fa-sm"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link white-text" href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
                                 </ul>
+                            </div>
                             </div><!-- /.navbar-collapse -->
-                        </div><!-- /.container -->
+                        <!-- /.container -->
                     </nav>
                 </div>
             </div><!-- container -->
         </div>
-    </div><div class="pixfort_normal_1 creative_video_header" id="section_pix_4">
+    </div>
+
+    <div class="creative_video_header" id="section_pix_4">
         <div class="has-video creative_header">
-            <div class="mask"></div>
+            <div class="mask "></div>
                 <div class="pix_video_div section_video">
                     <video autoplay="" poster="images/video/video_bg.jpg" class="bgvid" loop="">
                         <source src="images/video/video_bg.webm" type="video/webm">
@@ -55,31 +82,31 @@
                     <div class="container">
                         <div class="sixteen columns context_style">
                             <div class="title_style">
-                                <span class="editContent">
-                                    <span class="pix_text">NEW LANDING FOR CREATIVES</span>
+                                <span class="editContent fs-1 ">
+                                    <span class="pix_text white-text">NEW LANDING FOR CREATIVES</span>
                                 </span>
                             </div>
-                            <div class="subtitle_style">
+                            <div class="subtitle_style"  style="width: 60% ; text-align: center ;margin:20px auto" >
                                 <span class="creative_h_text">
-                                    <span class="editContent"><span class="pix_text">More than 18 unique HTML templates in one bundle isn't that awesome with a lot of features and great design brought to you by PixFort.</span></span>
+                                    <span class="editContent"><span class="pix_text white-text">More than 18 unique HTML templates in one bundle isn't that awesome with a lot of features and great design brought to you by PixFort.</span></span>
                                 </span>
                             </div>
                         <div class="email_subscribe pix_builder_bg">
-                            <form id="contact_form" pix-confirm="hidden_pix_1">
+                            <form id="contact_form" class="bg-dark" pix-confirm="hidden_pix_1">
                                 <input type="email" name="email" id="email" placeholder="Enter Your Email" class="pix_text">
                                 <button class="subscribe_btn pix_text" id="subscribe_btn_1">SUBSCRIBE NOW</button>
                                 <div id="result"></div>
                             </form>
                         </div>
                         <div class="note_st">
-                            <span class="creative_note"><span class="editContent"><span class="pix_text">*Note: Bundle ends in two weeks from now.</span></span></span>
+                            <span class="creative_note"><span class="editContent"><span class="pix_text white-text">*Note: Bundle ends in two weeks from now.</span></span></span>
                         </div>
                     </div>
                 </div><!-- container -->
             </div>
         </div>
     </div>
-    <div id="hidden_pix_1" class="confirm_page confirm_page_1 pix_builder_bg">
+    <div id="hidden_pix_1" class="pix_builder_bg">
         <div class="pixfort_normal_1">
             <div class="confirm_logo">
                 <span class="conf_img">
@@ -107,52 +134,54 @@
             </div>
         </div>
     </div>
-    <div class="section_pointer" pix-name="video"></div><div class="pixfort_university_6" id="section_university_5">
+    <div class="section_pointer " pix-name="video"></div>
+        <div class="pixfort_university_6 flex-container" id="section_university_5">
             <div class="join_us_section pix_builder_bg">
-               <div class="container">
+               <div class="containers">
                 <div class="sixteen columns">
                     <div class="ten columns  alpha">
                         <div class="zone_left">
                             <div class="psingle_item">
-                             <div class="icon_st"> <img src="images/6_university/icon_1.png" alt=""></div>
-                             <div class="text_st">
-                                <h3 class="title_st editContent">High Quality Tutorials</h3>
-                                <h6 class="subject_st editContent">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</h6>
+                                 <div class="icon_st"> <img src="images/6_university/icon_1.png" alt=""></div>
+                                 <div class="text_st">
+                                    <h3 class="title_st editContent">High Quality Tutorials</h3>
+                                    <h6 class="subject_st editContent">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</h6>
+                                </div>
+                            </div>
+                            <div class="psingle_item">
+                                <div class="icon_st"> <img src="images/6_university/icon_2.png" alt=""></div>
+                                <div class="text_st">
+                                    <p class="title_st editContent">New Latest Offers</p>
+                                    <p class="subject_st editContent">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
+                                </div>
+                            </div>
+                            <div class="psingle_item">
+                                <div class="icon_st"> <img src="images/6_university/icon_3.png" alt=""></div>
+                                <div class="text_st">
+                                        <p class="title_st editContent">The Best Bundle Ever</p>
+                                        <p class="subject_st editContent">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="clearfix"></div>
-                        <div class="psingle_item">
-                         <div class="icon_st"> <img src="images/6_university/icon_2.png" alt=""></div>
-                         <div class="text_st">
-                            <p class="title_st editContent">New Latest Offers</p>
-                            <p class="subject_st editContent">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="psingle_item">
-                     <div class="icon_st"> <img src="images/6_university/icon_3.png" alt=""></div>
-                     <div class="text_st">
-                        <p class="title_st editContent">The Best Bundle Ever</p>
-                        <p class="subject_st editContent">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="six columns omega">
+        <div class="six columns omega bg-light-gray small-column">
             <div class="substyle pix_builder_bg">
-                <div class="title-style"><span class="editContent"><span class="pix_text">Join Us Now</span></span></div>
+                <div class="title-style"><span class="editContent"><span class="pix_text fs-3 ">Join Us Now</span></span></div>
                 <br>
                 <div class="text-style">
-                  <span class="editContent"><span class="pix_text">Lorem ipsum dolor sit amet consectetur.</span></span>
+                  <span class="editContent"><span class="pix_text gray-text">Lorem ipsum dolor sit amet consectetur.</span></span>
               </div><br>
               <div class="clearfix"></div>
-              <form id="contact_form" pix-confirm="hidden_pix_6">
-                <div id="result"></div>
-                <input type="text" name="name" id="name" placeholder="Your Full Name" class="pix_text">
-                <input type="email" name="email" id="email" placeholder="Your Email" class="pix_text">
-                <input type="text" name="number" id="number" placeholder="Your Phone Number" class="pix_text">
+              <form class="contact_form" pix-confirm="hidden_pix_6">
+                <div class="result"></div>
+                  <input type="text" name="name" class="name pix_text block" placeholder="Your Full Name">
+                  <input type="email" name="email" class="email pix_text block" placeholder="Your Email">
                 <div class="select_st">
-                    <select id="countries" name="countries" class="pix_text">
+                    <input type="text" name="number" class="number pix_text block" placeholder="Your Phone Number">
+                    <select id="countries" name="countries" class="pix_text block">
                         <option value="">Select a Country</option>
                         <option value="Afghanistan">Afghanistan</option>
                         <option value="Aland Islands">Aland Islands</option>
@@ -401,11 +430,11 @@
 
                     </select>
                 </div>
-                <span class="send_btn">
+                <div class="send_btn block">
                     <button type="submit" class="submit_btn pix_text" id="submit_btn_6">
                         <span class="editContent">Send Information</span>
                     </button>
-                </span>
+                </div>
             </form>
             <div class="clearfix"></div>
         </div>
@@ -429,28 +458,30 @@
         </ul>
     </div>
 </div>
-</div><div class="pixfort_ecourse_8" id="section_ecourse_7">
+</div>
+<div class="pixfort_ecourse_8" id="section_ecourse_7">
 
-		<div class="foot_st pix_builder_bg">
+		<div class="foot_st pix_builder_bg ligh-dark-bg">
 			<div class="container ">
-				<div class="sixteen columns bg_foot">
+				<div class="sixteen columns bg_foot" style="display: flex ; justify-content: space-between">
 					<div class="seven columns alpha">
 						<span class="editContent"><span class="pix_text"><span class="rights_st"> All rights reserved Copyright © 2014 FLATPACK by
-							<span class="pixfort_st">PixFort</span>
+							<span class="pixfort_st fw-bold" style="color: #2850b2">PixFort</span>
 						</span></span></span>
 					</div>
 
 
 					<div class="nine columns omega ">
-						<div class="socbuttons">
+						<div class="socbuttons"  style="display: flex">
+                            <div class="likes_st"><span class="editContent"><span class="pix_text">Your likes &amp; share makes us happy!</span></span></div>
 							<div class="soc_icons pix_builder_bg">
-								<ul class="bottom-icons">
-		                            <li><a class="pi pixicon-facebook2 normal_gray" href="#fakelink"></a></li>
-		                            <li><a class="pi pixicon-twitter2 normal_gray" href="#fakelink"></a></li>
-		                            <li><a class="pi pixicon-instagram normal_gray" href="#fakelink"></a></li>
+								<ul class="bottom-icons" >
+		                            <li><a class="pi pixicon-facebook2 normal_gray" href="#fakelink"><i class="fa-brands fa-facebook fa-sm black-icon"></i></a></li>
+		                            <li><a class="pi pixicon-twitter2 normal_gray" href="#fakelink"><i class="fa-brands fa-twitter fa-sm black-icon"></i></a></li>
+		                            <li><a class="pi pixicon-instagram normal_gray" href="#fakelink"><i class="fa-brands fa-instagram black-icon"></i></a></li>
 		                        </ul>
 							</div>
-							<div class="likes_st"><span class="editContent"><span class="pix_text">Your likes &amp; share makes us happy!</span></span></div>
+
 						</div>
 					</div>
 				</div>

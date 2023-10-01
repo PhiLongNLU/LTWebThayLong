@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#section_header_2_dark{
+    background-color: #333333;
+}
+
+.container{
+    padding: 0 10%;
+    margin: 0 auto;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.white-text{
+    color: white;
+}
+
+.navbar{
+    padding:  20px 0;
+}
+
+video{
+    width: 100%;
+}
+
+.pix_video_div{
+    filter: brightness(50%);
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.clearfix{
+    position: absolute;
+    text-align: center;
+    top: 370px;
+    left: 300px;
+}
+
+.bg-dark{
+   background-color: #151515;
+    width: 43%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.subscribe_btn{
+    background-color: #FFCF34;
+    border : solid #FFCF34 2px;
+    color : white;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.note_st{
+    font-size: 0.6rem;
+    margin-top: 20px ;
+}
+.zone_left{
+    display: block;
+}
+.psingle_item{
+    display: flex;
+}
+
+.bg-light-gray{
+    background-color: lightgray;
+}
+
+.gray-text{
+    color: #9f9d9d;;
+}
+
+.block{
+    display: block;
+    width: 100%;
+}
+
+.submit_btn{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #7CC576;
+    border: none;
+    color: white;
+}
+
+.small-column{
+    width: 30%;
+    padding:40px 10px ;
+    border-radius: 5px;
+}
+
+input{
+    border: none;
+}
+
+.contact_form  input{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.pixfort_university_6{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#hidden_pix_1{
+    display: none;
+}
+
+#hidden_pix_6{
+    display: none;
+}
+
+.ligh-dark-bg{
+    background-color: #F6F6F6;
+    margin-top: 50px;
+}
+
+.black-icon{
+    color: black;
+    margin: 0 5px;
+}
+
+.bottom-icons{
+    list-style: none;
+    display: flex;
+
+}
